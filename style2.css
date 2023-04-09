@@ -1,0 +1,38 @@
+.choiceBtn{
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #474747; 
+  color: black; 
+  border-radius: 10px;
+}
+#gameDiv{
+    font-family: 'Brush Script MT', 'Roboto Condensed' ;
+    border: 0px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 250px;
+}
+#playerText{
+    color: rgb(0, 0, 255);
+}
+#computerText{
+    color: rgb(255, 0, 0);
+}
+.choiceBtn:hover{
+    background-color: #323232;
+    color: white;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgb(20, 20, 20);
+}

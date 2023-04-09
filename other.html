@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <header>
+        <button id="main-btn">Back To Main</button>
+        <button id="about-btn">About</button>
+        <button id="games-btn">Games</button>
+    </header>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+  <h1>Other Stuff</h1>
+  <div class="flex-container">
+    <div class="flex-child magenta">
+      <section class="rps" id="clc">
+        <h2>Calculator</h2>
+        <button class="rps-btn" id="clc-btn">Let's Go!</button>
+    </section>
+  </div>
+
+</body>
+<script>
+    document.getElementById("about-btn").addEventListener("click", function() {
+      window.location.href = "about.html";
+    });
+
+    document.getElementById("games-btn").addEventListener("click", function() {
+      window.location.href = "games.html";
+    });
+
+    document.getElementById("main-btn").addEventListener("click", function() {
+      window.location.href = "main.html";
+    });
+    document.getElementById("clc-btn").addEventListener("click", function() {
+      window.location.href = "calc.html";
+    });
+  </script>
+</html>

@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <header>
+        <button id="main-btn">Back To Main</button>
+        <button id="about-btn">About</button>
+        <button id="other-btn">Other Stuff</button>
+    </header>
+    <h1>Games</h1>
+    <div class="flex-container">
+      <div class="flex-child magenta">
+        <section class="rps">
+          <h2>Rock Paper Scissors</h2>
+          <button class="rps-btn" id="rps-btn">Let's Go!</button>
+      </section>
+      </div>
+      <div class="flex-child green">
+        <section class="rps" id="ttt">
+          <h2>TicTacToe</h2>
+          <button class="rps-btn" id="ttt-btn">Let's Go!</button>
+        </section>
+      </div>
+      <div class="flex-child red">
+        <section class="rps" id="snk">
+          <h2>Snake</h2>
+          <button class="rps-btn" id="snk-btn">Let's Go!</button>
+        </section>
+      </div>
+      <div class="flex-child blue">
+        <section class="rps" id="pong">
+          <h2>Pong</h2>
+          <button class="rps-btn" id="pong-btn">Let's Go!</button>
+        </section>
+      </div>
+  </div>
+  <div class="flex-container">
+    <div class="flex-child magenta">
+      <section class="rps" id="blp">
+        <h2>Ballon Pop (My Best Game)</h2>
+        <button class="rps-btn" id="blp-btn">Let's Go!</button>
+    </section>
+  </div>
+
+</body>
+<script>
+    document.getElementById("about-btn").addEventListener("click", function() {
+      window.location.href = "about.html";
+    });
+
+    document.getElementById("main-btn").addEventListener("click", function() {
+      window.location.href = "main.html";
+    });
+
+    document.getElementById("other-btn").addEventListener("click", function() {
+      window.location.href = "other.html";
+    });
+    document.getElementById("rps-btn").addEventListener("click", function() {
+      window.location.href = "rps.html";
+    });
+    document.getElementById("ttt-btn").addEventListener("click", function() {
+      window.location.href = "ttt.html";
+    });
+    document.getElementById("blp-btn").addEventListener("click", function() {
+      window.location.href = "blp.html";
+    });
+  </script>
+</html>
