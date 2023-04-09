@@ -20,7 +20,7 @@
 <body>
   <h1>Other Stuff</h1>
   <div class="flex-container">
-    <div class="flex-child magenta">
+    <div class="two" class="flex-child magenta">
       <section class="rps" id="clc">
         <h2>Calculator</h2>
         <button class="rps-btn" id="clc-btn">Let's Go!</button>
@@ -29,5 +29,8 @@
 
 </body>
 <script>
+   document.getElementById("clc-btn").addEventListener("click", function() {
+      window.location.href = "calc.html";
+    });
   </script>
 </html>

@@ -90,7 +90,6 @@
         
         .flex-child {
             flex: 1;
-            width: 25rem;
         }  
 
         h5, #good{
@@ -113,10 +112,17 @@
         color: #ffffff;
         font-size:1.5em;
         font-family: helvetica, sans-serif, arial;
-        padding: .2em 2em;
+        padding: .2em 4.75em;
         border-right: 1px solid #ffffff;
         border-radius:5px; }
    
     li a:hover{
         background-color: #111111;
         color: #fff; }
+
+    .one{
+        width: 18rem;
+    }
+    .two{
+        width:72rem;
+    }
