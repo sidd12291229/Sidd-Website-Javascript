@@ -1,8 +1,12 @@
 
         body {
-            font-family: sans-serif;
+            font-family: monospace;
             margin: 0;
             background-color: rgb(20, 20, 20);
+        }
+        p {
+            font-size: 25rem;
+            margin: 8px;
         }
         body {
             display: grid;
